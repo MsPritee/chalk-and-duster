@@ -1,0 +1,24 @@
+.App-header {
+    background-color: aquamarine;
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center; 
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+h1 {  
+    font-size: x-large;   
+    font-weight: bold;    
+}
+
+ul{
+    display: flex;
+   
+}
+
+li{
+    margin-right: 8px;
+}

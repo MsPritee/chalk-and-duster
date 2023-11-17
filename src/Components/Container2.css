@@ -1,0 +1,69 @@
+.yt-container h2 {
+    text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.3);
+    color: var(--e-global-color-30350695);
+    -webkit-text-stroke-width: 0px;
+    stroke-width: 0px;
+    -webkit-text-stroke-color: #000;
+    stroke: #000;
+}
+
+.yt-card {
+    height: 270px;
+    /* border: solid chartreuse 2px; */
+    border-width: 1px;
+    margin: 14px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 22px;
+    position: relative;
+}
+
+
+.yt-card:hover {
+    box-shadow: 10px blue;
+    scale: 1.1;
+}
+
+.complex-img, .group-img, .jee-img{
+    height: 200px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    border-radius: 20px;
+}
+
+
+.yt-btn-box {
+    width: 100%;
+}
+
+.ytbtn {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: black;
+    text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.3);
+    font-weight: 800;
+}
+
+.ytbtn:hover {
+    /* background-color: rgb(216, 239, 240); */
+    font-weight: bolder;
+}
+
+
+@media (max-width: 750px) {
+    .yt-card-container {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
